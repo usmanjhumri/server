@@ -124,5 +124,5 @@ app.get("/", (req, res) => {
   res.status(200).sendFile(join(resolve(), "server/dist/index.html"));
 });
 app.listen(PORT, () => {
-  console.log(`server is chling on port ${PORT}`);
+  console.log(`server is running on port ${PORT}`);
 });
